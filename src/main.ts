@@ -1,5 +1,5 @@
 /**
- * Web Clawler의 main 프로그램
+ * Web Crawler의 main 프로그램
  * 
  * @file src/main.ts
  * @version 0.0.1
@@ -10,7 +10,7 @@
 
 (async () => {
     try {
-        console.log('Start Web Clawler');
+        console.log('Start Web Crawler');
 
 
 

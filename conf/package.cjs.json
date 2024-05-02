@@ -1,5 +1,5 @@
 {
-    "name": "webclawler",
+    "name": "webcrawler",
     "description": "OBCon Web Clawler",
     "version": "0.0.1",
     "keywords": [
@@ -10,7 +10,7 @@
     ],
     "homepage": "https://www.obcon.biz/",
     "bugs": {
-        "url": "https://github.com/pnuskgh/WebClawler/issues",
+        "url": "https://github.com/pnuskgh/WebCrawler/issues",
         "email": "pnuskgh@gmail.com"
     },
     "private": true,
@@ -50,11 +50,11 @@
         }
     },
     "man": [
-        "https://github.com/pnuskgh/WebClawler"
+        "https://github.com/pnuskgh/WebCrawler"
     ],
     "repository": {
         "type": "git",
-        "url": "git@github.com:pnuskgh/WebClawler.git"
+        "url": "git@github.com:pnuskgh/WebCrawler.git"
     },
     "type": "commonjs",
     "dependencies": {

@@ -51,8 +51,8 @@
 ### GitHub 연동
 
 - GitHub에 로그인한 후 다음 작업을 진행 한다.
-  - WebClawler repositoty를 생성 한다.
-    - Repository : https://github.com/pnuskgh/WebClawler
+  - WebCrawler repositoty를 생성 한다.
+    - Repository : https://github.com/pnuskgh/WebCrawler
   - Repository의 "Settings > Access > Collaborators" 메뉴에서 협업할 사람을 초대 한다.
   - 사용자의 "Settings > Access > SSH and GPG keys" 메뉴에서 SSH key를 등록 한다.
     - 아래 ssh-keygen 명령으로 생성된 id_rsa.pub 파일의 내용을 등록 한다.
@@ -75,6 +75,7 @@ ssh-keygen  -t  rsa
 
 ```powershell
 #--- 최상위 작업 폴더 생성
+cd  c:/
 mkdir  work
 cd  work
 
@@ -88,11 +89,24 @@ node  --version
 npm  --version
 
 #--- Project 작업 폴더 생성
-#---     work/WebClawler/ 폴더가 생성됨
-git  clone  git@github.com:pnuskgh/WebClawler.git
-cd  WebClawler
+#---     work/WebCrawler/ 폴더가 생성됨
+cd  c:/work
+git  clone  git@github.com:pnuskgh/WebCrawler.git
+cd  WebCrawler
 npm  install
+# npm  install  -f
 
 #---     한번만 실행할 작업
+#---         Global 환경에 모듈을 설치 한다.
 npm  install  -g  ts-node
 ```
+
+### 제어문
+
+  
+
+### 기본 문법
+
+  
+
+### 입출력

@@ -1,19 +1,22 @@
 /**
- * Study의 main 프로그램
+ * Study 프로그램
  * 
- * @file study/main.ts
+ * @file study/study_20240501.ts
  * @version 0.0.1
  * @license OBCon Lincese 1.0
  * @copyright 2017~2024, OBCon Inc.
  * @author gye hyun james kim <pnuskgh@gmail.com>
  */
 
-import { run } from './study_20240501.js';
-
-(async () => {
+export async function run() {
     try {
-        await run();
+        console.log('Study: 상수와 변수 타입');
+
+
+
+
+        console.log(' ');
     } catch(ex) {
         console.error(ex);
     }
-})();
+}

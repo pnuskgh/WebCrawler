@@ -1,16 +1,16 @@
 {
-    "name": "webclawler",
-    "description": "OBCon Web Clawler",
+    "name": "webcrawler",
+    "description": "OBCon Web Crawler",
     "version": "0.0.1",
     "keywords": [
         "OBCon",
         "Service",
         "Web",
-        "Clawler"
+        "Crawler"
     ],
     "homepage": "https://www.obcon.biz/",
     "bugs": {
-        "url": "https://github.com/pnuskgh/WebClawler/issues",
+        "url": "https://github.com/pnuskgh/WebCrawler/issues",
         "email": "pnuskgh@gmail.com"
     },
     "private": true,
@@ -50,11 +50,11 @@
         }
     },
     "man": [
-        "https://github.com/pnuskgh/WebClawler"
+        "https://github.com/pnuskgh/WebCrawler"
     ],
     "repository": {
         "type": "git",
-        "url": "git@github.com:pnuskgh/WebClawler.git"
+        "url": "git@github.com:pnuskgh/WebCrawler.git"
     },
     "type": "module",
     "dependencies": {
@@ -82,7 +82,7 @@
         "vitest": "^0.33.0"
     },
     "scripts": {
-        "WebClawler": "--- WebClawler Library 생성",
+        "WebCrawler": "--- WebCrawler Library 생성",
         "build": "npm  run  build:clean  &&  npm  run  build:esm  &&  npm  run  build:cjs",
         "build:clean": "rimraf  ./lib",
         "build:esm": "tsc  -p ./conf/tsconfig.esm.json",

@@ -1,11 +1,11 @@
-# WebClawler
+# WebCrawler
 
-- GitHub 주소: https://github.com/pnuskgh/WebClawler
+- GitHub 주소: https://github.com/pnuskgh/WebCrawler
 
 ## 주요 명령어
 
 ```bash
-#--- PC에서 develop branch 최초 생성
+#--- PC에서 develop branch 최초 생성후 배포
 git  checkout  -b  develop
 git  push  --set-upstream  origin  develop
 
@@ -41,7 +41,7 @@ npm  install
 - 2024-05-02, pnuskgh, 테스트 환경 구성
 - 2024-05-02, pnuskgh, TypeScript 개발 환경 구성
 - 2024-05-01, pnuskgh, 공용 노트북에 개발 환경 설정
-- 2024-05-01, pnuskgh, GitHub에 WebClawler repository 생성
+- 2024-05-01, pnuskgh, GitHub에 WebCrawler repository 생성
 
 ## 참고 문헌
 
@@ -51,5 +51,3 @@ npm  install
 - [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
   - [TypeScript Handbook (한글)](https://www.typescriptlang.org/ko/docs/handbook/intro.html)
   - [TypeScript-Handbook 한글 문서](https://typescript-kr.github.io/)
-- 프로젝트 관련 정보 : manual/project.md 파일 참조
- 

@@ -12,7 +12,7 @@ import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
     test: {
-        name: 'WebClawler-library',
+        name: 'WebCrawler-library',
         environment: 'node',
         globals: true,
         root: '.',
