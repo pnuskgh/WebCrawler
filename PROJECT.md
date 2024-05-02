@@ -49,13 +49,13 @@
 
 ## 작업 환경 설정
 
-| Software |      | Version | Description          |
-| :------: | :--: | :-----: | -------------------- |
-|   VSC    |      |         | Visual Studio Code   |
-|   git    |      | 2.19.0  |                      |
-|   nvm    |      |         | Node Version Manager |
-|          | node | 18.16.0 |                      |
-|          | npm  |  9.5.1  | Node Package Manager |
+|                          Software                          |      | Version | Description          |
+| :--------------------------------------------------------: | :--: | :-----: | -------------------- |
+|       [VSC](https://visualstudio.microsoft.com/ko/)        |      |         | Visual Studio Code   |
+|          [git](https://git-scm.com/download/win)           |      | 2.19.0  |                      |
+| [nvm](https://github.com/coreybutler/nvm-windows/releases) |      | 1.1.11  | Node Version Manager |
+|                                                            | node | 18.16.0 |                      |
+|                                                            | npm  |  9.5.1  | Node Package Manager |
 
   
 
@@ -134,7 +134,7 @@ npm  install  -g  ts-node
 | 2024-06-17 |      |      |      |      |      |      |      |
 | 2024-06-24 |      |      |      |      |      |      |      |
 
-  
+  
 
 ## 작업 목록
 
