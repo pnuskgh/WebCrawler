@@ -14,21 +14,22 @@ npm  run  test                          #--- Test 자동화
 npm  run  start                         #--- WebCrawler 실행
 npm  run  build                         #--- WebCrawler 배포 준비
 
-#--- PC에서 develop branch 최초 생성후 배포
-git  checkout  -b  develop
-git  push  --set-upstream  origin  develop
+#--- PC에서 study branch 최초 생성후 배포
+git  checkout  -b  study
+git  push  --set-upstream  origin  study
 
-#--- 서버에 있는 develop branch 가져오기
-git  fetch  origin  develop
-git  checkout  develop
+#--- 서버에 있는 study branch 가져오기
+git  fetch  origin  study
+git  checkout  study
 
-#--- develop에서 개발한 내용을 master에 반영
-#---     Client의 현재 branch develop
+#--- study에서 개발한 내용을 develop에 반영
+#---     Client의 현재 branch study
 #---     Excel 파일 등이 열려 있으면 먼저 닫은 후 작업할 것
-git  checkout  master
-git  merge     develop                  #--- develop 반영
-git  push                               #--- 서버에 반영
 git  checkout  develop
+git  merge     study                    #--- study 반영
+git  push                               #--- 서버에 반영
+git  checkout  study
+git  status
 
 #--- 최신 버전 적용
 git  pull
