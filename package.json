@@ -1,0 +1,98 @@
+{
+    "name": "webclawler",
+    "description": "OBCon Web Clawler",
+    "version": "0.0.1",
+    "keywords": [
+        "OBCon",
+        "Service",
+        "Web",
+        "Clawler"
+    ],
+    "homepage": "https://www.obcon.biz/",
+    "bugs": {
+        "url": "https://github.com/pnuskgh/WebClawler/issues",
+        "email": "pnuskgh@gmail.com"
+    },
+    "private": true,
+    "author": {
+        "name": "OBCon Inc.",
+        "email": "pnuskgh@gmail.com",
+        "url": "https://www.obcon.biz/"
+    },
+    "contributors": [
+        {
+            "name": "gye hyun james kim",
+            "email": "pnuskgh@gmail.com",
+            "url": "https://www.obcon.biz/"
+        },
+        {
+            "name": "won ho kim",
+            "email": "wonhokim2015@gmail.com",
+            "url": "https://github.com/ONEHO33"
+        }
+    ],
+    "license": "OBCon Lincese 1.0 (https://www.obcon.biz/cms/pages?action=view&page=/HomePage/termOfUse.md)",
+    "main": "main.js",
+    "types": "./lib/esm/types/index.d.ts",
+    "files": [
+        "lib/**/*"
+    ],
+    "exports": {
+        ".": {
+            "import": {
+                "types": "./lib/esm/types/index.d.ts",
+                "default": "./lib/esm/index.js"
+            },
+            "require": {
+                "types": "./lib/cjs/types/index.d.ts",
+                "default": "./lib/cjs/index.js"
+            }
+        }
+    },
+    "man": [
+        "https://github.com/pnuskgh/WebClawler"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:pnuskgh/WebClawler.git"
+    },
+    "type": "module",
+    "dependencies": {
+        "axios": "^1.6.8",
+        "cheerio": "^1.0.0-rc.12",
+        "excel4node": "^1.8.2"
+    },
+    "devDependencies": {
+        "@types/node": "^20.3.1",
+        "@types/qs": "^6.9.7",
+        "@types/uuid": "^9.0.2",
+        "dotenv": "^16.3.1",
+        "eslint": "^8.44.0",
+        "iconv-lite": "^0.6.3",
+        "prettier": "^2.8.8",
+        "qs": "^6.11.2",
+        "readline": "^1.3.0",
+        "remove": "^0.1.5",
+        "rimraf": "^5.0.1",
+        "ts-node": "^10.9.1",
+        "tsc-alias": "^1.8.6",
+        "tsconfig-paths": "^4.2.0",
+        "tslib": "^2.6.0",
+        "typescript": "^5.1.3",
+        "vitest": "^0.33.0"
+    },
+    "scripts": {
+        "WebClawler": "--- WebClawler Library 생성",
+        "build": "npm  run  build:clean  &&  npm  run  build:esm  &&  npm  run  build:cjs",
+        "build:clean": "rimraf  ./lib",
+        "build:esm": "tsc  -p ./conf/tsconfig.esm.json",
+        "build:cjs": "tsc  -p ./conf/tsconfig.cjs.json",
+        "Test_vitest": "--- Test",
+        "test": "vitest",
+        "TypeScript_Run": "--- TypeScript 실행",
+        "start": "ts-node  ./src/main.ts",
+        "start:study": "ts-node  ./study/main.ts",
+        "The_End": "--- 소스 정리",
+        "lint": "eslint ."
+    }
+}

@@ -1,0 +1,46 @@
+#--- 시스템 폴더
+/.gulp-scss-cache/
+/.nyc_output/
+/coverage/
+/dist/
+/build/
+/lib/
+/node_modules/
+/prisma/files/
+/prisma/migrations/
+/sessions/
+
+#--- 사용자 폴더
+/files/
+/install/
+/library/
+/libraryStorage/
+/logs/
+/themes/
+/zzstudy/
+/zztest/
+
+#--- 시스템 파일
+/.babelrc
+.DS_Store
+/.env
+/.local-chromium
+book.md
+nohup.out
+/package-lock.json
+/pnpm-lock.yaml
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/c_cpp_properties.json
+~*
+*.swp
+
+#--- 사용자 파일
+/config_*
+/package_*.json
+/package.json_*
+/version_local.json
+zz*
+
+#--- 예외 처리
+!config_cms_obcon_override.js
