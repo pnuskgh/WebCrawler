@@ -2,9 +2,18 @@
 
 - GitHub 주소: https://github.com/pnuskgh/WebCrawler
 
+
+    
+
 ## 주요 명령어
 
 ```bash
+#--- 실행 명령어
+npm  run  start:study                   #--- Study 프로그램 실행
+npm  run  test                          #--- Test 자동화
+npm  run  start                         #--- WebCrawler 실행
+npm  run  build                         #--- WebCrawler 배포 준비
+
 #--- PC에서 develop branch 최초 생성후 배포
 git  checkout  -b  develop
 git  push  --set-upstream  origin  develop
@@ -26,22 +35,44 @@ git  pull
 npm  install
 ```
 
-## 해야할 작업
+​    
 
-- main 프로그램 작성
-- Crawler 라이브러리 작성
-- Scraper 라이브러리 작성
-- WebSaver 라이브러리 작성
-- 프로그램 검증
-  - https://openapi.ebestsec.co.kr/apiservice 페이지에서 API 가이드
-  - 로그인 후 특정 데이터 가져오기
+### Code Convention
 
-## 완료한 작업
+- ESLint 사용
+- Prettier 사용
+- [TypeScript Naming Conventions](https://aykhanhuseyn.medium.com/typescript-naming-conventions-crafting-maintainable-code-7d872234fe17)
+- [TypeScript Style Guide](https://mkosir.github.io/typescript-style-guide/)
 
-- 2024-05-02, pnuskgh, 테스트 환경 구성
-- 2024-05-02, pnuskgh, TypeScript 개발 환경 구성
-- 2024-05-01, pnuskgh, 공용 노트북에 개발 환경 설정
-- 2024-05-01, pnuskgh, GitHub에 WebCrawler repository 생성
+  
+
+### Git Convention
+
+- 형상 관리를 위한 branch 전략
+  - main : 제품으로 출시될 수 있는 브랜치
+  - develop : 다음 출시 버전을 개발하는 브랜치
+  - feature : 기능을 개발하는 브랜치
+    - feature/기능명
+  - refactor : 기능을 리팩터링하는 브랜치
+    - refactor/기능명
+  - release : 이번 출시 버전을 준비하는 브랜치
+  - hotfix : 출시 버전에서 발생한 버그를 수정 하는 브랜치
+  - study : Study용 브랜치
+- Merge Request > 동료 Review > Merge
+- Commit message 규칙
+  - [Type] commit message
+  - type
+    - feature : 새로운 기능 추가
+    - fix : 버그 수정
+    - docs : 문서 업데이트
+    - style : 포매팅 등 style 수정
+    - refactor : 코드의 리팩토링
+    - test : 테스트코드 업데이트
+    - env : 환경 구축
+    - chore : 잡일
+    - study : Study
+
+  
 
 ## 참고 문헌
 
@@ -51,3 +82,5 @@ npm  install
 - [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
   - [TypeScript Handbook (한글)](https://www.typescriptlang.org/ko/docs/handbook/intro.html)
   - [TypeScript-Handbook 한글 문서](https://typescript-kr.github.io/)
+
+  
