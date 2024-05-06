@@ -10,7 +10,7 @@
 
 import { run } from './study_20240501.js';
 
-(async () => {
+(async (): Promise<void> => {
     try {
         await run();
     } catch(ex) {

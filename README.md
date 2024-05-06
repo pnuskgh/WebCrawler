@@ -9,8 +9,8 @@
 
 ```bash
 #--- 실행 명령어
-npm  run  start:study                   #--- Study 프로그램 실행
 npm  run  test                          #--- Test 자동화
+npm  run  start:study                   #--- Study 프로그램 실행
 npm  run  start                         #--- WebCrawler 실행
 npm  run  build                         #--- WebCrawler 배포 준비
 

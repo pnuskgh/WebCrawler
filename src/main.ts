@@ -8,7 +8,7 @@
  * @author gye hyun james kim <pnuskgh@gmail.com>
  */
 
-(async () => {
+(async (): Promise<void> => {
     try {
         console.log('Start Web Crawler');
 

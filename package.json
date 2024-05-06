@@ -91,7 +91,7 @@
         "test": "vitest",
         "TypeScript_Run": "--- TypeScript 실행",
         "start": "ts-node  ./src/main.ts",
-        "start:study": "ts-node  ./study/main.ts",
+        "start:study": "ts-node  ./src/study/main.ts",
         "The_End": "--- 소스 정리",
         "lint": "eslint ."
     }
