@@ -8,14 +8,6 @@
  * @author gye hyun james kim <pnuskgh@gmail.com>
  */
 
-export interface Site {
-	url: string;
-  	parameters: {
-        name: string,
-        value: string | number | boolean
-    };
-}
-
 export const run = async (): Promise<void> => {
     try {
         console.log('Study: 상수와 변수 타입');
