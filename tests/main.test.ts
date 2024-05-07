@@ -8,12 +8,11 @@
  * @author gye hyun james kim <pnuskgh@gmail.com>
  */
 
-// import dotenv from 'dotenv';
-import { describe, beforeAll, it, afterAll, expect } from 'vitest';
+import 'dotenv/config';                                     //--- https://www.npmjs.com/package/dotenv
+import { describe, beforeAll, it, afterAll, expect } from 'vitest';             //--- https://www.npmjs.com/package/vitest
 
 const funcBeforeAll = async (_ctx): Promise<void> => {
     try {
-        // process.env.USERID
     } catch(ex) {
         console.error(ex);
     }
@@ -35,10 +34,14 @@ const test_001 = async (): Promise<number> => {
     }
 }
 
-describe('Test Web Crawler: main.ts', (): void => {
-    beforeAll(funcBeforeAll, 100);
+describe('test WebCrawler', async (): Promise<void> => {
+    try {
+        beforeAll(funcBeforeAll, 100);
 
-    it('Test 001', async (ctx) => { expect(await test_001()).toBe(0)});
+        it('test 001', async (ctx) => { expect(await test_001()).toBe(0)});
 
-    afterAll(funcAfterAll, 100);
+        afterAll(funcAfterAll, 100);
+    } catch(ex) {
+        console.error(ex);
+    }
 });

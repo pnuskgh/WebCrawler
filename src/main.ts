@@ -12,9 +12,7 @@
     try {
         console.log('Start Web Crawler');
 
-
-
-
+        
 
     } catch(ex) {
         console.error(ex);
