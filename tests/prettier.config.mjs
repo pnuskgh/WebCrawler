@@ -30,14 +30,14 @@ const config = {
     tabWidth: 4,
     useTabs: false,
 
-    // overrides: [
-    //     {
-    //         files: '*.ts',
-    //         options: {
-    //             parser: 'flow',
-    //         },
-    //     },
-    // ],
+    overrides: [
+        {
+            files: '*.mjs',
+            options: {
+                parser: 'flow',
+            },
+        },
+    ],
 };
 
 export default config;
