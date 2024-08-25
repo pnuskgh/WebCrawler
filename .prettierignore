@@ -1,8 +1,8 @@
 #--- 시스템 폴더
-**/.git
-**/.github
-**/.vscode
-**/node_modules
+**/.git/
+**/.github/
+**/.vscode/
+**/node_modules/
 
 #--- 시스템 파일
 .env
@@ -20,7 +20,6 @@ prettier.config.mjs
 eslint.config.mjs
 **/*.md
 **/*.html
-*.mjs
 
 #--- 예외 처리
 # !예외 처리
