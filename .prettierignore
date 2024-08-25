@@ -1,2 +1,22 @@
-.vscode/extensions.json
-.vscode/settings.json
+#--- 시스템 폴더
+**/.git
+**/.github
+**/.vscode
+**/node_modules
+
+#--- 시스템 파일
+.env
+.gitignore
+.prettierignore
+package-lock.json
+package.json
+
+#--- 사용자 폴더
+/logs/
+
+#--- 사용자 파일
+**/*.md
+**/*.html
+
+#--- 예외 처리
+# !예외 처리

@@ -73,7 +73,6 @@
     "@types/qs": "^6.9.7",
     "@types/uuid": "^9.0.2",
     "eslint": "^8.57.0",
-    "eslint-plugin-prettier": "^5.2.1",
     "globals": "^15.9.0",
     "iconv-lite": "^0.6.3",
     "prettier": "^3.3.3",
