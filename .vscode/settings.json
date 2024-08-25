@@ -1,27 +1,27 @@
 {
-	"javascript.format.enable": false,
+    "javascript.format.enable": true,
 
-	"eslint.enable": true,
-	"eslint.format.enable": true,
-	"eslint.workingDirectories": [{ "mode": "auto" }],
+    "eslint.enable": true,
+    "eslint.format.enable": true,
+    "eslint.workingDirectories": [{ "mode": "auto" }],
 
-	"editor.formatOnSave": true,
-	"editor.codeActionsOnSave": {
-		"source.fixAll": "always",
-		"source.fixAll.eslint": "always",
-		"source.fixAll.stylelint": "always",
-		"source.organizeImports": "explicit",
-		"source.addMissingImports": "always"
-	},
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "always",
+        "source.fixAll.eslint": "always",
+        "source.fixAll.stylelint": "always",
+        "source.organizeImports": "explicit",
+        "source.addMissingImports": "always"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
 
-	"[typescript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[javascript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[json]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	}
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }

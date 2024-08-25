@@ -4,7 +4,7 @@
  * @license OBCon License 1.0
  */
 
-import { SiteInfomation } from "./crawler.type";
+import { SiteInfomation } from './crawler.type';
 
 export class WebCrawler {
     capitalize(param: string): string {
@@ -12,14 +12,16 @@ export class WebCrawler {
     }
 
     encode(param: string): SiteInfomation {
-        const site: SiteInfomation = { 
-            url: param, data: {},  
+        const site: SiteInfomation = {
+            url: param,
+            data: {},
         };
         return site;
     }
 
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     decode(_params: SiteInfomation): string {
-      return "";
+        return '';
     }
 }
 
