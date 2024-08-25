@@ -1,22 +1,10 @@
 {
-	"psi-header.config": {
-		"forceToTop": true,
-		"license": "Custom",
-		"license-text": "GNU General Public License v3.0",
-		"author": "dalcon10028",
-		"authorEmail": "dalcon10280@gmail.com",
+	"eslint.enable": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "always",
+		"source.fixAll.eslint": "always",
+		"source.fixAll.stylelint": "always",
+		"source.addMissingImports": "never"
 	},
-	"psi-header.license-text": ["GNU General Public License v3.0"],
-	"psi-header.templates": [
-		{
-			"language": "*",
-			"template": [
-				"<<relativepath>>/<<filename>>",
-				"",
-				"@version <<projectversion>>",
-				"@license <<licensetext>>",
-				"@author <<author>> <<<authoremail>>>"
-			]
-		}
-	],
+	"editor.formatOnSave": true
 }

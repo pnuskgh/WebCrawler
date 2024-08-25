@@ -11,8 +11,12 @@ import tseslint from "typescript-eslint";
 
 
 export default [
-  {files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"]},
-  {languageOptions: { globals: globals.browser }},
-  pluginJs.configs.recommended,
-  ...tseslint.configs.recommended
+    {
+        files: [ "**/*.{js,mjs,cjs,ts,jsx,tsx}" ]
+      },
+    {
+        languageOptions: { globals: globals.browser }
+    },
+    pluginJs.configs.recommended,                           //--- ESLint의 권장 설정
+    ...tseslint.configs.recommended                         //--- TypeScript의 권장 설정
 ];

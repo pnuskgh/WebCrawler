@@ -1,11 +1,7 @@
 /**
- * Web Crawler Library
- * 
- * @file src/crawler.type.ts
- * @version 0.0.1
- * @license OBCon Lincese 1.0
- * @copyright 2017~2024, OBCon Inc.
  * @author gye hyun james kim <pnuskgh@gmail.com>
+ * @copyright 2017~2024, OBCon Inc.
+ * @license OBCon License 1.0
  */
 
 export interface SiteInfomation {
