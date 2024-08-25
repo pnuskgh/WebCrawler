@@ -10,10 +10,10 @@
         "source.fixAll": "always",
         "source.fixAll.eslint": "always",
         "source.fixAll.stylelint": "always",
-        "source.organizeImports": "explicit",
+        // "source.organizeImports": "explicit",
         "source.addMissingImports": "always"
     },
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
 
     "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"

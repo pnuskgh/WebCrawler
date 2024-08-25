@@ -8,15 +8,19 @@
 .env
 .gitignore
 .prettierignore
-package-lock.json
+**/.DS_Store
 package.json
+*-lock.json
 
 #--- 사용자 폴더
-/logs/
+logs/
 
 #--- 사용자 파일
+prettier.config.mjs
+eslint.config.mjs
 **/*.md
 **/*.html
+*.mjs
 
 #--- 예외 처리
 # !예외 처리
