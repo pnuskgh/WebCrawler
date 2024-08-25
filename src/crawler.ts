@@ -7,20 +7,19 @@
 import { SiteInfomation } from "./crawler.type";
 
 export class WebCrawler {
-    capitalize(param: string): string { 
+    capitalize(param: string): string {
         return param;
     }
 
     encode(param: string): SiteInfomation {
-        const site: SiteInfomation = {
-            url: param, 
-            data: {}
+        const site: SiteInfomation = { 
+            url: param, data: {},  
         };
         return site;
     }
 
     decode(_params: SiteInfomation): string {
-        return '';
+      return "";
     }
 }
 
